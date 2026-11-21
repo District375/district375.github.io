@@ -2,7 +2,11 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Email confirmed · Nutmeg</title><link rel="stylesheet" href="styles.css"></head>
 <body><main>
-<h1>You're confirmed</h1>
-<p>Your email is verified. Go back to the Nutmeg app on your phone and sign in to share your recipe book and meal plan with the people you love.</p>
+<h1 id="t">You're confirmed</h1>
+<p id="m">Your email is verified. Go back to the Nutmeg app on your phone and sign in to share your recipe book and meal plan with the people you love.</p>
 <p><a href="index.html">Nutmeg home</a> · <a href="privacy-policy.html">Privacy policy</a></p>
-</main></body></html>
+</main>
+<script>
+(function(){var h=location.hash+"&"+location.search;if(h.indexOf("error=")>-1||h.indexOf("error_code=")>-1){document.title="Link expired · Nutmeg";document.getElementById("t").textContent="That link expired";document.getElementById("m").textContent="This confirmation link is no longer valid. Open the Nutmeg app on your phone and sign in to get a new one.";}})();
+</script>
+</body></html>
