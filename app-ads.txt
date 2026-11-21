@@ -1,0 +1,4 @@
+# Replace [ADMOB PUBLISHER ID] with the publisher ID from the AdMob account
+# (it looks like pub-XXXXXXXXXXXXXXXX). Do not publish this file to the live
+# site until the real ID is filled in.
+google.com, [ADMOB PUBLISHER ID], DIRECT, f08c47fec0942fa0
